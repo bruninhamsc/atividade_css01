@@ -74,3 +74,22 @@ body {
     text-decoration: underline;
     color: #ffffff;
 }
+
+/* Seletor por ID do rodapé */
+#rodape-principal {
+    margin-top: 50px;
+    padding: 15px 0;
+    border-top: 1px dashed rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+/* Seletor por Classe do rodapé */
+.rodape-estilo {
+    font-size: 14px;
+    color: gray; /* Cor por Nome */
+}
+
+.nome-autor {
+    color: #ffffff; /* Cor por HEX */
+    font-weight: bold;
+}
