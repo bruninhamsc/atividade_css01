@@ -1,0 +1,76 @@
+/* #####################################################
+   ESTILOS GERAIS DA PÁGINA (Tema: Analog Horror)
+   ##################################################### */
+
+body {
+    /* Cores: Nome (black), HEX (#121212) */
+    background-image: url('https://i.pinimg.com/564x/39/65/46/39654693f718ae57538bfb7bf41b217c.jpg');
+  background-repeat: no-repeat;  /* Impede que a imagem se repita */
+  background-size: cover;        /* Faz a imagem cobrir toda a tela */
+  background-position: center;   /* Centraliza a imagem */
+  background-attachment: fixed;  /* Mantém o fundo fixo ao rolar a página */
+
+    color: rgba(240, 240, 240, 0.9);
+  
+
+    /* Cores: RGB/RGBA */
+    color: rgba(240, 240, 240, 0.9);
+    
+    /* Tipografia e tamanho */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 40px;
+}
+
+/* #####################################################
+   SELETORES POR ID E CLASSE
+   ##################################################### */
+
+/* Seletor por ID */
+#titulo-principal {
+    font-family: "Press Start 2P", system-ui;
+    /* Cor por Nome */
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 10px;
+}
+
+/* Seletor por Classe 1 */
+.descricao {
+    font-size: 18px;
+    line-height: 1.9;
+    /* Cor por RGBA com transparência */
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-left: 4px solid red;
+}
+
+/* Seletor por Classe 2 */
+.lista-horror {
+    list-style-type: square;
+    font-size: 18px;
+    line-height: 2.0;
+}
+
+.item-destaque {
+    font-weight: bold;
+    /* Cor por HEX */
+    color: #ff4d4d;
+}
+
+/* Seletor de Link */
+.link-externo {
+    /* Cor por Nome */
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-externo:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
